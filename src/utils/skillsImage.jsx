@@ -18,6 +18,8 @@ import github from '../assets/PNG/github.png'
 import npm from '../assets/PNG/npm.png'
 import yarn from '../assets/PNG/Yarn.png'
 import vscode from '../assets/PNG/VScode.png'
+import vitejs from '../assets/SVG/vitejs.svg'
+import chatgpt from '../assets/PNG/1681038242chatgpt-logo-png.png'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -62,6 +64,10 @@ export const skillsImage = (skill) => {
             return yarn;
         case 'vscode':
             return vscode;
+        case 'vitejs' :
+            return vitejs;
+        case 'chatgpt' :
+            return chatgpt;
         default:
             break;
     }

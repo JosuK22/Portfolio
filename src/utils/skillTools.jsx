@@ -7,4 +7,6 @@ export const skillsDataB = [
     'npm',
     'Yarn',
     'VScode',
+    'Vitejs',
+    'ChatGPT',
 ]
