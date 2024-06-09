@@ -5,12 +5,20 @@ import './header.css';
 import Card from '../HeaderCard/Card';
 import { CiSun } from 'react-icons/ci';
 import { WiMoonAltWaningCrescent4 } from 'react-icons/wi';
-import { headerData } from '../../../data/headerData';
+import { headerData } from '../../../data/Header/headerData';
+import { jobRoles } from '../../../data/Header/roles';
 
 const TypedText = () => {
   useEffect(() => {
+    const strings = [
+      `${jobRoles.role_1}`,
+      `${jobRoles.role_2}`,
+      `${jobRoles.role_3}`,
+      `${jobRoles.role_4}`,
+      `${jobRoles.role_5}`
+    ]
     const typed = new Typed('#typed-text', {
-      strings: ['Frontend Developer', 'Full Stack Developer', 'Software Developer', 'Gamer'],
+      strings : strings,
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -47,14 +55,17 @@ const Header = ({ toggleButton, isToggled }) => {
         </div>
 
         <div className="text__content">
-          <h5>{headerData.title}</h5>
+          <h5>Hello I'm</h5>
           <h1>
             <span id="n1">{headerData.firstname}</span> <span id="n2">{headerData.middlename}</span> <span id="n3">{headerData.lastname}</span>
           </h1>
-          <h5>
+          <h5 id='typer'>
             <TypedText />
           </h5>
-          <HeaderButtons />
+          <div className='buttons'>
+            <HeaderButtons />
+          </div>
+          
         </div>
       </div>
     </header>

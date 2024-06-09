@@ -65,6 +65,10 @@ fill: var(--color-primary);
 #typed-text{
   font-size: 18px;
 }
+.typed-cursor{
+  font-size: 20px;
+}
+
 /* ----------------------Card------------------------- */
 .card__container{
   display: flex;
@@ -156,6 +160,7 @@ fill: var(--color-primary);
   margin-top: 2.5rem;
 }
 
+
 @media screen and (max-width: 1024px){
   header {
     height: 80vh;
@@ -168,13 +173,14 @@ fill: var(--color-primary);
 
 @media screen and (max-width: 600px){
   header {
-    height: 100vh;
+    height: 90vh;
   }
 
   .card__container{
     margin-top: 2px;
   }
   
+ 
   .toggle-button{
     width: 30px;
     height: 30px;
@@ -182,5 +188,16 @@ fill: var(--color-primary);
   .icon-container{
     width: 25px;
   }
-  
+  #typer{
+    margin-top: 2rem;
+  }
+  #typed-text{
+    font-size: 22px;
+  }
+  .typed-cursor{
+    font-size: 22px;
+  }
+  .buttons{
+    margin-top: 10rem;
+  }
 }
