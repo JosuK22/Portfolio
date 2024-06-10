@@ -151,6 +151,7 @@ fill: var(--color-primary);
 .text__content{
   margin-top: 55px;
   height: 50%;
+  
 }
 
 .header__button {
@@ -188,16 +189,39 @@ fill: var(--color-primary);
   .icon-container{
     width: 25px;
   }
-  #typer{
-    margin-top: 2rem;
-  }
+  .cardContainer {
+    width: 150px;
+    height: 170px;
+    }
   #typed-text{
-    font-size: 22px;
+    font-size: 20px;
   }
   .typed-cursor{
-    font-size: 22px;
+    font-size: 20px;
   }
-  .buttons{
-    margin-top: 10rem;
+  .text__content{
+    margin-top: 25%;
+    height: 50%;
+    
+  }
+  
+  .header__button {
+    margin-top: 10%;
+  }
+}
+
+@media(max-height: 950px){
+  .text__content{
+    margin-top: 25%;
+    height: 50%;
+    
+  }
+  .header__button {
+    margin-top: 60%;
+  }
+}
+@media(max-height: 750px){
+  .header__button {
+    margin-top: 10%;
   }
 }
