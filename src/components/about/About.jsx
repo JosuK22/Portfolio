@@ -7,6 +7,7 @@ import img from '../../assets/My_Image/Me-2.png'
 const Intro = () => {
   return (
     <section id="about">
+      
       <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">

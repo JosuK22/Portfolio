@@ -189,10 +189,7 @@ fill: var(--color-primary);
   .icon-container{
     width: 25px;
   }
-  .cardContainer {
-    width: 150px;
-    height: 170px;
-    }
+  
   #typed-text{
     font-size: 20px;
   }
@@ -219,9 +216,15 @@ fill: var(--color-primary);
   .header__button {
     margin-top: 60%;
   }
+  
 }
-@media(max-height: 750px){
+@media(max-height: 900px){
   .header__button {
     margin-top: 10%;
   }
+  .cardContainer {
+    width: 150px;
+    height: 170px;
+    }
+  
 }

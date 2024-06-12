@@ -45,8 +45,8 @@ const Portfolio = () => {
       description:
         "A personal portfolio website made using HTML, CSS, Javascript",
       technologies: "HTML | CSS | JavaScript",
-      link: "https://josuk22.github.io/",
-      github: "https://github.com/JosuK22/JosuK22.github.io",
+      link: "https://josuk22.github.io/HTML-CSS-Portfolio/",
+      github: "https://github.com/JosuK22/HTML-CSS-Portfolio",
     },
     {
       id: 5,
