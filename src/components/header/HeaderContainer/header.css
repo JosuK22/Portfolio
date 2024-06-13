@@ -214,11 +214,19 @@ fill: var(--color-primary);
     
   }
   .header__button {
-    margin-top: 60%;
+    margin-top: 50%;
   }
   
 }
 @media(max-height: 900px){
+  .header__button {
+    margin-top: 10%;
+  }
+  
+  
+}
+
+@media(max-height: 750px){
   .header__button {
     margin-top: 10%;
   }
