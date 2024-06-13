@@ -5,13 +5,13 @@ import { socialLinks } from "../../../links/socialMedia";
 
 const Card = () =>{
     return(
-        <div class="cardContainer">
+        <div className="cardContainer">
 
-            <div class="profileDiv"></div>
+            <div className="profileDiv"></div>
 
-            <div class="iconDiv">
+            <div className="iconDiv">
 
-                <div class="socialDiv">
+                <div className="socialDiv">
                     <a href={socialLinks.github} target="_blank" rel="noreferrer"><FaGithub/></a>
                     <a href={socialLinks.linkedin} target="_blank" rel="noreferrer"><TiSocialLinkedin /></a>
                     <a href={socialLinks.instagram} target="_blank" rel="noreferrer"><FaInstagram/></a>
