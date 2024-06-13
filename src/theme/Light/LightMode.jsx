@@ -6,10 +6,10 @@ const MovingSky = () => {
 
   return (
 
-    <div class="background-container">
-      <div class="bg-shape1"></div>
-      <div class="bg-shape2"></div>
-      <div class="bg-shape3"></div>
+    <div className="background-container">
+      <div className="bg-shape1"></div>
+      <div className="bg-shape2"></div>
+      <div className="bg-shape3"></div>
     </div>
 
   );
