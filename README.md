@@ -1,5 +1,5 @@
 # Portfolio
-portfolio
+Personal | Developer Portfolio
 
 
 ![Preview](src/assets/Preview/Preview.png)
