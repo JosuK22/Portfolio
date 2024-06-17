@@ -7,6 +7,7 @@ import emailjs from '@emailjs/browser';
 
 //--------------- import contact data -----------------------
 import { contactLinks } from '../../data/Links/contactLinks';
+import { contact } from '../../data/Texts/Contacts/contactData';
 
 const Contact = () => {
 
@@ -48,21 +49,21 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>josephkanoj@gmail.com</h5>
+            <h5>{contact.email}</h5>
             <a href={contactLinks.email}>Send a mail</a>
           </article>
 
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>Joseph K Anoj</h5>
+            <h5>{contact.messenger}</h5>
             <a href={contactLinks.messenger}>Send a message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Phone / WhatsApp</h4>
-            <h5>+91 9744788125</h5>
+            <h5>{contact.whatsapp}</h5>
             <a href={contactLinks.whatsApp}>Send a message</a>
           </article>
 
