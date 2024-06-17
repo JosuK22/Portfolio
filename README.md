@@ -52,6 +52,7 @@ To set up the project locally, follow these steps:
 ## Folder Structure
 Here is the basic structure of the project:
 
+```bash
 Portfolio
 ├── node_modules
 ├── public
@@ -60,96 +61,97 @@ Portfolio
 ├── src
 │   ├── assets
 │   │   ├── Avatars
-│   │   |   ├── avatar_1.png
-|   |   |   ├── avatar_2.png
-|   |   |   ├── avatar_3.png
-|   |   |   ├── avatar_4.png
-|   |   |   └── avatar_5.png
-|   |   ├── Background
-│   │   |   ├── Contact us-bro.png
-|   |   |   ├── skills.png
-|   |   |   └── sky.png
-|   |   ├── My_Image
-│   │   |   ├── Me-1.png
-|   |   |   └── Me-2.png
-|   |   ├── PNG
-│   │   |   ├── Bootstrap.png
-|   |   |   ├── CSS.png
-|   |   |   ├── express.png
-│   │   |   ├── github us-bro.png
-|   |   |   ├── HTML.png
-|   |   |   ├── JS.png
-│   │   |   ├── MongoBD.png
-|   |   |   ├── Node.png
-|   |   |   ├── npm.png
-│   │   |   ├── Postman.png
-|   |   |   ├── React.png
-|   |   |   ├── VScode.png
-│   │   |   └── Yarn.png
-|   |   ├── Preview
-│   │   |   └── Preview.png
-|   |   ├── Projects
-|   |   |   ├── HotelBooking.png
-|   |   |   ├── HTML,CSS_Portfolio.png
-|   |   |   ├── HTMLGAME.png
-|   |   |   ├── NotesApp_2.jpeg
-|   |   |   ├── NotesApp.png
-|   |   |   ├── PokemonGame.png
-|   |   |   └── SupperApp.jpeg
-|   |   ├── Resume
-|   |   |   └── JOSEPH-K-ANOJ.pdf
-|   |   └── SVG
-|   |       ├── bootstrap.svg
-|   |       ├── css.svg
-|   |       ├── figma.svg
-|   |       ├── git.svg
-|   |       ├── html.svg
-|   |       ├── java.svg
-|   |       ├── javascript.svg
-|   |       ├── materialui.svg
-|   |       ├── mongoDB.svg
-|   |       ├── mysql.svg
-|   |       ├── python.svg
-|   |       ├── react.svg
-|   |       ├── tailwind.svg
-|   |       └── vitejs.svg
+│   │   │   ├── avatar_1.png
+│   │   │   ├── avatar_2.png
+│   │   │   ├── avatar_3.png
+│   │   │   ├── avatar_4.png
+│   │   │   └── avatar_5.png
+│   │   ├── Background
+│   │   │   ├── Contact_us-bro.png
+│   │   │   ├── skills.png
+│   │   │   └── sky.png
+│   │   ├── My_Image
+│   │   │   ├── Me-1.png
+│   │   │   └── Me-2.png
+│   │   ├── PNG
+│   │   │   ├── Bootstrap.png
+│   │   │   ├── CSS.png
+│   │   │   ├── express.png
+│   │   │   ├── github_us-bro.png
+│   │   │   ├── HTML.png
+│   │   │   ├── JS.png
+│   │   │   ├── MongoBD.png
+│   │   │   ├── Node.png
+│   │   │   ├── npm.png
+│   │   │   ├── Postman.png
+│   │   │   ├── React.png
+│   │   │   ├── VScode.png
+│   │   │   └── Yarn.png
+│   │   ├── Preview
+│   │   │   └── Preview.png
+│   │   ├── Projects
+│   │   │   ├── HotelBooking.png
+│   │   │   ├── HTML_CSS_Portfolio.png
+│   │   │   ├── HTMLGAME.png
+│   │   │   ├── NotesApp_2.jpeg
+│   │   │   ├── NotesApp.png
+│   │   │   ├── PokemonGame.png
+│   │   │   └── SupperApp.jpeg
+│   │   ├── Resume
+│   │   │   └── JOSEPH-K-ANOJ.pdf
+│   │   └── SVG
+│   │       ├── bootstrap.svg
+│   │       ├── css.svg
+│   │       ├── figma.svg
+│   │       ├── git.svg
+│   │       ├── html.svg
+│   │       ├── java.svg
+│   │       ├── javascript.svg
+│   │       ├── materialui.svg
+│   │       ├── mongoDB.svg
+│   │       ├── mysql.svg
+│   │       ├── python.svg
+│   │       ├── react.svg
+│   │       ├── tailwind.svg
+│   │       └── vitejs.svg
 │   ├── components
 │   │   ├── about
-|   |   ├── contact
-|   |   ├── footer
-|   |   ├── header
-|   |   ├── navbar
-|   |   ├── portfolio
-|   |   ├── skills
-|   |   └── testimonials
+│   │   ├── contact
+│   │   ├── footer
+│   │   ├── header
+│   │   ├── navbar
+│   │   ├── portfolio
+│   │   ├── skills
+│   │   └── testimonials
 │   ├── data
-|   |   ├── Links
-|   |   |   ├── contactLinks.js
-|   |   |   └── socialMedia.js
-|   |   ├── Texts
-|   |   |   ├── About
-|   |   |   ├── Contacts
-|   |   |   ├── Header
-|   |   |   ├── Portfolio
-|   |   |   └── Testimonials
-|   |   └── utils
-|   |   |   ├── skilsImage.jsx
-|   |   |   ├── skillsTechnologies.jsx
-|   |   |   └── skillsTools.jsx
+│   │   ├── Links
+│   │   │   ├── contactLinks.js
+│   │   │   └── socialMedia.js
+│   │   ├── Texts
+│   │   │   ├── About
+│   │   │   ├── Contacts
+│   │   │   ├── Header
+│   │   │   ├── Portfolio
+│   │   │   └── Testimonials
+│   │   └── utils
+│   │       ├── skilsImage.jsx
+│   │       ├── skillsTechnologies.jsx
+│   │       └── skillsTools.jsx
 │   ├── theme
-|   |   ├── Dark
-|   |   |   ├── NightMode.css
-|   |   |   └── NightMode.jsx
-|   |   └── Light
-|   |       ├── LightMode.css
-|   |       └── LightMode.css
+│   │   ├── Dark
+│   │   │   ├── NightMode.css
+│   │   │   └── NightMode.jsx
+│   │   └── Light
+│   │       ├── LightMode.css
+│   │       └── LightMode.css
 │   ├── App.js
 │   ├── App.css
 │   ├── index.js
-│   └── 
+│   └── README.md
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 
 ## Modifying the Website
