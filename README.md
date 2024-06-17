@@ -2,7 +2,7 @@
 
 ## Preview
 <div align="center">
-  <img src="../Portfolio/src/assets/Preview/Preview.png" alt="Portfolio Preview" width="600"/>
+  <img src="./src/assets/Preview/Preview.png" alt="Portfolio Preview" width="600"/>
 </div>
 
 ## About
