@@ -4,12 +4,15 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
 import emailjs from '@emailjs/browser';
-import { contactLinks } from '../../links/contactLinks';
+
+//--------------- import contact data -----------------------
+import { contactLinks } from '../../data/Links/contactLinks';
 
 const Contact = () => {
 
   const formRef = useRef();
 
+  // To modify this check emailjs Documentation
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
@@ -30,6 +33,7 @@ const Contact = () => {
     alert("Thanks, I'll reply ASAP :)");
     e.target.reset();
   };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>

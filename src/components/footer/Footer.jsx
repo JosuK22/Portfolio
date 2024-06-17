@@ -2,8 +2,12 @@ import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub,FaInstagram,FaFacebookF } from 'react-icons/fa';
 import Clock from './time';
-import { socialLinks } from '../../links/socialMedia';
+
 import './footer.css';
+
+//-----------import social media links-------------------
+import { socialLinks } from '../../data/Links/socialMedia';
+
 
 const Footer = () => {
   return (

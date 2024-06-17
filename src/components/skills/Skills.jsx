@@ -1,8 +1,10 @@
 import React from 'react';
 import Marquee from "react-fast-marquee";
-import { skillsDataA } from '../../utils/skillTechnologies';
-import {skillsDataB} from '../../utils/skillTools';
-import { skillsImage } from '../../utils/skillsImage';
+
+import { skillsDataA } from '../../data/utils/skillTechnologies';
+import {skillsDataB} from '../../data/utils/skillTools';
+import { skillsImage } from '../../data/utils/skillsImage';
+
 import './skills.css';
 
 const Skills = () => {

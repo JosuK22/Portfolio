@@ -1,10 +1,12 @@
 import React from 'react';
-import CV from '../../../assets/Resume/JOSEPH-K-ANOJ_RESUME.pdf';
+
+//----------------import resume-----------------
+import { resume } from '../../../data/Texts/Header/headerData';
 
 const HeaderButtons = () => {
   return (
     <div className="header__button">
-      <a href={CV} download className="btn">
+      <a href={resume.resume} download className="btn">
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary" id='b-1'>

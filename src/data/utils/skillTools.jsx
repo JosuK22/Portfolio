@@ -1,5 +1,7 @@
 export const skillsDataB = [
     
+    // Add the tools you use inside ' ',
+
     'Postman',
     'Figma',
     'Git',

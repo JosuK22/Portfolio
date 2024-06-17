@@ -1,4 +1,7 @@
 export const skillsDataA = [
+
+    // Add the programing or technology skills inside ' ', 
+
     'HTML',
     'CSS',
     'Javascript',

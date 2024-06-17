@@ -1,7 +1,7 @@
 import React from "react"
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaGithub,FaInstagram} from 'react-icons/fa';
-import { socialLinks } from "../../../links/socialMedia";
+import { socialLinks } from "../../../data/Links/socialMedia";
 
 const Card = () =>{
     return(

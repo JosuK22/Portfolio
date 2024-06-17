@@ -5,8 +5,9 @@ import './header.css';
 import Card from '../HeaderCard/Card';
 import { CiSun } from 'react-icons/ci';
 import { WiMoonAltWaningCrescent4 } from 'react-icons/wi';
-import { headerData } from '../../../data/Header/headerData';
-import { jobRoles } from '../../../data/Header/roles';
+
+//------------ importing Text Data --------------------
+import { headerName, jobRoles } from '../../../data/Texts/Header/headerData';
 
 const TypedText = () => {
   useEffect(() => {
@@ -57,7 +58,7 @@ const Header = ({ toggleButton, isToggled }) => {
         <div className="text__content">
           <h5>Hello I'm</h5>
           <h1>
-            <span id="n1">{headerData.firstname}</span> <span id="n2">{headerData.middlename}</span> <span id="n3">{headerData.lastname}</span>
+            <span id="n1">{headerName.firstname}</span> <span id="n2">{headerName.middlename}</span> <span id="n3">{headerName.lastname}</span>
           </h1>
           <h5 id='typer'>
             <TypedText />
