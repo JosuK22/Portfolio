@@ -167,7 +167,6 @@ Here are the key dependencies used in this project along with their documentatio
 - [React Slick](https://react-slick.neostack.com/docs/get-started/) (`react-slick`, `slick-carousel`)
 - [Swiper](https://swiperjs.com/react) (`swiper`)
 - [Typed.js](https://www.npmjs.com/package/typed.js) (`typed.js`, `typedjs`)
-- [Anime.js](https://animejs.com/documentation/) (`animejs`)
 - [gh-pages](https://www.npmjs.com/package/gh-pages) (`gh-pages`)
 
 ## Hosting with GitHub Pages
