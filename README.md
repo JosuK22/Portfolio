@@ -9,27 +9,27 @@
 This is a React-based Developer Portfolio that can be easily modified.
 
 ## Hosted Website
-Check out the live version here [Personal Portfolio](https://josuk22.github.io/Portfolio/).
+Check out the live version here: [Personal Portfolio](https://josuk22.github.io/Portfolio/).
 
 ## Setup Instructions
 
 ### Prerequisites
 Make sure you have the following installed on your local machine:
-- Git
-- Node.js
-- npm or yarn
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Clone the Repository
 To set up the project locally, follow these steps:
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/JosuK22/Notes-App.git
+    git clone https://github.com/JosuK22/Portfolio.git
     ```
 
 2. **Navigate to the project directory**
     ```bash
-    cd Notes-App
+    cd Portfolio
     ```
 
 3. **Install dependencies**
@@ -47,10 +47,126 @@ To set up the project locally, follow these steps:
     ```
 
 5. **Open the application**
-    Open your browser and go to `http://localhost:3000` to view the NotesApp.
+    Open your browser and go to `http://localhost:3000` to view the Portfolio.
 
-## Modifying the website
-    You only need to modify the contents inside the data folder (src/data) and the images (src/assets/images).
+## Folder Structure
+Here is the basic structure of the project:
+
+Portfolio
+├── node_modules
+├── public
+│   ├── favicon.ico
+│   └── index.html
+├── src
+│   ├── assets
+│   │   ├── Avatars
+│   │   |   ├── avatar_1.png
+|   |   |   ├── avatar_2.png
+|   |   |   ├── avatar_3.png
+|   |   |   ├── avatar_4.png
+|   |   |   └── avatar_5.png
+|   |   ├── Background
+│   │   |   ├── Contact us-bro.png
+|   |   |   ├── skills.png
+|   |   |   └── sky.png
+|   |   ├── My_Image
+│   │   |   ├── Me-1.png
+|   |   |   └── Me-2.png
+|   |   ├── PNG
+│   │   |   ├── Bootstrap.png
+|   |   |   ├── CSS.png
+|   |   |   ├── express.png
+│   │   |   ├── github us-bro.png
+|   |   |   ├── HTML.png
+|   |   |   ├── JS.png
+│   │   |   ├── MongoBD.png
+|   |   |   ├── Node.png
+|   |   |   ├── npm.png
+│   │   |   ├── Postman.png
+|   |   |   ├── React.png
+|   |   |   ├── VScode.png
+│   │   |   └── Yarn.png
+|   |   ├── Preview
+│   │   |   └── Preview.png
+|   |   ├── Projects
+|   |   |   ├── HotelBooking.png
+|   |   |   ├── HTML,CSS_Portfolio.png
+|   |   |   ├── HTMLGAME.png
+|   |   |   ├── NotesApp_2.jpeg
+|   |   |   ├── NotesApp.png
+|   |   |   ├── PokemonGame.png
+|   |   |   └── SupperApp.jpeg
+|   |   ├── Resume
+|   |   |   └── JOSEPH-K-ANOJ.pdf
+|   |   └── SVG
+|   |       ├── bootstrap.svg
+|   |       ├── css.svg
+|   |       ├── figma.svg
+|   |       ├── git.svg
+|   |       ├── html.svg
+|   |       ├── java.svg
+|   |       ├── javascript.svg
+|   |       ├── materialui.svg
+|   |       ├── mongoDB.svg
+|   |       ├── mysql.svg
+|   |       ├── python.svg
+|   |       ├── react.svg
+|   |       ├── tailwind.svg
+|   |       └── vitejs.svg
+│   ├── components
+│   │   ├── about
+|   |   ├── contact
+|   |   ├── footer
+|   |   ├── header
+|   |   ├── navbar
+|   |   ├── portfolio
+|   |   ├── skills
+|   |   └── testimonials
+│   ├── data
+|   |   ├── Links
+|   |   |   ├── contactLinks.js
+|   |   |   └── socialMedia.js
+|   |   ├── Texts
+|   |   |   ├── About
+|   |   |   ├── Contacts
+|   |   |   ├── Header
+|   |   |   ├── Portfolio
+|   |   |   └── Testimonials
+|   |   └── utils
+|   |   |   ├── skilsImage.jsx
+|   |   |   ├── skillsTechnologies.jsx
+|   |   |   └── skillsTools.jsx
+│   ├── theme
+|   |   ├── Dark
+|   |   |   ├── NightMode.css
+|   |   |   └── NightMode.jsx
+|   |   └── Light
+|   |       ├── LightMode.css
+|   |       └── LightMode.css
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── 
+├── .gitignore
+├── package.json
+└── README.md
+
+
+## Modifying the Website
+You only need to modify the contents inside the `src/data` folder and the images inside the `src/assets/images` folder.
+
+## Dependencies
+Here are the key dependencies used in this project along with their documentation links:
+
+- [React](https://reactjs.org/) (`react`, `react-dom`)
+- [React Scripts](https://create-react-app.dev/docs/getting-started/) (`react-scripts`)
+- [EmailJS](https://www.emailjs.com/docs/sdk/installation/) (`@emailjs/browser`, `emailjs`)
+- [React Icons](https://react-icons.github.io/react-icons/) (`react-icons`)
+- [React Slick](https://react-slick.neostack.com/docs/get-started/) (`react-slick`, `slick-carousel`)
+- [Swiper](https://swiperjs.com/react) (`swiper`)
+- [Typed.js](https://www.npmjs.com/package/typed.js) (`typed.js`, `typedjs`)
+- [Anime.js](https://animejs.com/documentation/) (`animejs`)
+- [gh-pages](https://www.npmjs.com/package/gh-pages) (`gh-pages`)
 
 ## Hosting with GitHub Pages
 
@@ -66,7 +182,7 @@ To host your React NotesApp using GitHub Pages, follow these steps:
 2. **Add homepage to package.json**
     Add the following line to your `package.json` file:
     ```json
-    "homepage": "https://Your-Github.github.io/Repository-name"
+    "homepage": "https://JosuK22.github.io/Portfolio"
     ```
 
 3. **Add deployment scripts to package.json**
@@ -86,7 +202,7 @@ To host your React NotesApp using GitHub Pages, follow these steps:
     ```
 
 5. **Access your application**
-    - Your NotesApp will be published at `https://User-Name.github.io/Repository-Name`.
+    - Your NotesApp will be published at `https://JosuK22.github.io/Portfolio`.
 
 ## Hosting with Other Platforms
 
