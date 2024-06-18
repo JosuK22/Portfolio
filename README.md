@@ -116,9 +116,23 @@ Portfolio
 │   │       └── vitejs.svg
 │   ├── components
 │   │   ├── about
+│   │   │   ├── about.css
+│   │   │   └── About.jsx
 │   │   ├── contact
+│   │   │   ├── contact.css
+│   │   │   └── Contact.jsx
 │   │   ├── footer
+│   │   │   ├── footer.css
+│   │   │   ├── Footer.jsx
+│   │   │   └── time.jsx
 │   │   ├── header
+│   │   │   ├── Buttons
+│   │   │   │   └── HeaderButton.jsx
+│   │   │   ├── HeaderCard
+│   │   │   │   └── Card.jsx
+│   │   │   └── HeaderContainer
+│   │   │       ├──header.css
+│   │   │       └── Header.jsx
 │   │   ├── navbar
 │   │   ├── portfolio
 │   │   ├── skills
@@ -129,10 +143,15 @@ Portfolio
 │   │   │   └── socialMedia.js
 │   │   ├── Texts
 │   │   │   ├── About
+│   │   │   │   └── aboutData.js
 │   │   │   ├── Contacts
+│   │   │   │   └── contactData.js
 │   │   │   ├── Header
+│   │   │   │   └── headerData.js
 │   │   │   ├── Portfolio
-│   │   │   └── Testimonials
+│   │   │   │   └── portfolioData.js
+│   │   │   ├── Testimonials
+│   │   │   │   └── testimonialData.js
 │   │   └── utils
 │   │       ├── skilsImage.jsx
 │   │       ├── skillsTechnologies.jsx
