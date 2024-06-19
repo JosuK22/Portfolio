@@ -190,7 +190,7 @@ Here are the key dependencies used in this project along with their documentatio
 
 ## Hosting with GitHub Pages
 
-To host your React NotesApp using GitHub Pages, follow these steps:
+To host your React Portfolio using GitHub Pages, follow these steps:
 
 1. **Install the gh-pages package**
     ```bash
@@ -202,7 +202,7 @@ To host your React NotesApp using GitHub Pages, follow these steps:
 2. **Add homepage to package.json**
     Add the following line to your `package.json` file:
     ```json
-    "homepage": "https://JosuK22.github.io/Portfolio"
+    "homepage": "https://user-name.github.io/repository-name"
     ```
 
 3. **Add deployment scripts to package.json**
@@ -222,11 +222,11 @@ To host your React NotesApp using GitHub Pages, follow these steps:
     ```
 
 5. **Access your application**
-    - Your NotesApp will be published at `https://JosuK22.github.io/Portfolio`.
+    - Your Portfolio will be published at `https://User-name.github.io/repository-name`.
 
 ## Hosting with Other Platforms
 
-You can also host your React NotesApp using other platforms such as Netlify, Vercel, or Heroku. Here are the basic steps:
+You can also host your React Portfolio using other platforms such as Netlify, Vercel, or Heroku. Here are the basic steps:
 
 ### Netlify
 1. **Create a Netlify account**: Go to [Netlify](https://www.netlify.com) and sign up.
