@@ -174,7 +174,10 @@ Portfolio
 
 
 ## Modifying the Website
-You only need to modify the contents inside the `src/data` folder and the images inside the `src/assets/images` folder.
+**You only need to modify the contents inside the `src/data` folder and the images inside the `src/assets/images` folder.**
+
+- You can get PNGs from here : [PNGEGG](https://www.pngegg.com/).
+- Skill PNGs / SVGs are exported using skillsImages.js (`src/data/utils/skillsImage.jsx`).
 
 ## Dependencies
 Here are the key dependencies used in this project along with their documentation links:
