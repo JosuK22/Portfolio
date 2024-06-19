@@ -232,20 +232,20 @@ You can also host your React Portfolio using other platforms such as Netlify, Ve
 1. **Create a Netlify account**: Go to [Netlify](https://www.netlify.com) and sign up.
 2. **New site from Git**: Click on "New site from Git" and connect your GitHub repository.
 3. **Build settings**: Set the build command to `npm run build` and the publish directory to `build`.
-4. **Deploy**: Click on "Deploy site" to publish your NotesApp.
+4. **Deploy**: Click on "Deploy site" to publish your Portfolio.
 
 ### Vercel
 1. **Create a Vercel account**: Go to [Vercel](https://vercel.com) and sign up.
 2. **New Project**: Click on "New Project" and import your GitHub repository.
 3. **Build settings**: Vercel automatically detects the build command and output directory for React apps.
-4. **Deploy**: Click on "Deploy" to publish your NotesApp.
+4. **Deploy**: Click on "Deploy" to publish your Portfolio.
 
 ### Heroku
 1. **Create a Heroku account**: Go to [Heroku](https://www.heroku.com) and sign up.
 2. **Create a new app**: Click on "New" and then "Create new app".
 3. **Deploy via GitHub**: Connect your GitHub repository to Heroku.
 4. **Build settings**: Set the buildpack to `heroku/nodejs`.
-5. **Deploy**: Click on "Deploy Branch" to publish your NotesApp.
+5. **Deploy**: Click on "Deploy Branch" to publish your Portfolio.
 
 ## Contributing
 If you have any suggestions or find any issues, please feel free to open an issue or submit a pull request.
