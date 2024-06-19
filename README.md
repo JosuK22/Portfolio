@@ -153,7 +153,7 @@ Portfolio
 │   │   │   ├── Testimonials
 │   │   │   │   └── testimonialData.js
 │   │   └── utils
-│   │       ├── skilsImage.jsx
+│   │       ├── skillsImage.jsx
 │   │       ├── skillsTechnologies.jsx
 │   │       └── skillsTools.jsx
 │   ├── theme
