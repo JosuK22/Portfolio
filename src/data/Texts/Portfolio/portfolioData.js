@@ -6,11 +6,22 @@ import IMG5 from "../../../assets/Projects/SupperApp.jpeg";
 import IMG6 from "../../../assets/Projects/NotesApp_2.jpeg";
 import IMG7 from "../../../assets/Preview/Preview.png";
 import IMG8 from "../../../assets/Projects/PokemonGame.png";
+import IMG9 from "../../../assets/Projects/Project Task Manager.png";
 
 export const soloProjects = [
 
     // Change the title, image, description, technologies, links and github links accordingly
-
+    {
+      id: 7,
+      title: "Project Task Manager",
+      img: IMG9,
+      description:
+        "A Fullstck Project Manager web application were users can create, update , delete and share task with registered users.",
+      technologies: "React | Node.js | MongoDB",
+      link: "https://pro-manage-omega.vercel.app/",
+      github:
+        "",
+    },
     {
       id: 1,
       title: "Notes App",
@@ -66,17 +77,7 @@ export const soloProjects = [
       link: "https://josuk22.github.io/HTML-CSS-Portfolio/",
       github: "https://github.com/JosuK22/HTML-CSS-Portfolio",
     },
-    {
-      id: 7,
-      title: "Rock Paper Scissors Game",
-      img: IMG3,
-      description:
-        "A Rock Paper Scissors game. The website is mainly functionally developed with JavaScript",
-      technologies: "HTML | CSS | JavaScript",
-      link: "https://josuk22.github.io/RockPaperScissors/",
-      github:
-        "https://github.com/JosuK22/RockPaperScissors",
-    },
+    
     {
       id: 8,
       title: "Hotel Management Website",
