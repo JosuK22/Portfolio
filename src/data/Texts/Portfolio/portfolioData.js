@@ -31,15 +31,15 @@ export const soloProjects = [
       link: "https://josuk22.github.io/Notes-App/",
       github: "https://github.com/JosuK22/Notes-App",
     },
-    {
-      id: 2,
-      title: "Notes App 2.0",
-      img: IMG6,
-      description: "Updated Notes App with groups option",
-      technologies: "Html | CSS | JavaScript | React Js",
-      link: "",
-      github: "https://github.com/JosuK22/Pocket_Notes",
-    },
+    // {
+    //   id: 2,
+    //   title: "Notes App 2.0",
+    //   img: IMG6,
+    //   description: "Updated Notes App with groups option",
+    //   technologies: "Html | CSS | JavaScript | React Js",
+    //   link: "",
+    //   github: "https://github.com/JosuK22/Pocket_Notes",
+    // },
     {
         id: 3,
         title: "Developer Portfolio",
@@ -60,12 +60,12 @@ export const soloProjects = [
       },
     {
       id: 5,
-      title: "Super App",
+      title: "Versahub",
       img: IMG5,
       description: "Multi-purpose react app.",
       technologies: "Html | CSS | APIs | React js",
       link: "",
-      github: null,
+      github: 'https://github.com/JosuK22/VersaHub',
     },
     {
       id: 6,
@@ -78,14 +78,14 @@ export const soloProjects = [
       github: "https://github.com/JosuK22/HTML-CSS-Portfolio",
     },
     
-    {
-      id: 8,
-      title: "Hotel Management Website",
-      img: IMG4,
-      description: "Group project, made to manage booking rooms in hotels",
-      technologies: "HTML | Node js | Express js | MongoDB ",
-      link: "",
-      github: null,
-    },
+    // {
+    //   id: 8,
+    //   title: "Hotel Management Website",
+    //   img: IMG4,
+    //   description: "Group project, made to manage booking rooms in hotels",
+    //   technologies: "HTML | Node js | Express js | MongoDB ",
+    //   link: "",
+    //   github: null,
+    // },
     
   ];
