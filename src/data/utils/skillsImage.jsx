@@ -22,6 +22,7 @@ import yarn from '../../assets/PNG/Yarn.png'
 import vscode from '../../assets/PNG/VScode.png'
 import vitejs from '../../assets/SVG/vitejs.svg'
 import chatgpt from '../../assets/PNG/1681038242chatgpt-logo-png.png'
+import versel from '../../assets/0001.png'
 
 // import name from '../assets/ image-folder/image-name '  -- copy & paste if there is more
 
@@ -72,6 +73,8 @@ export const skillsImage = (skill) => {
             return vitejs;
         case 'chatgpt' :
             return chatgpt;
+        case 'versel':
+            return versel;
 
         // case 'name(Must be small letter)': -- copy & paste if there is more icons
         //     return name;
