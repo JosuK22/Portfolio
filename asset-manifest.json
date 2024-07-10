@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b9d5b9d5.css",
-    "main.js": "/Portfolio/static/js/main.a4cc0b33.js",
+    "main.js": "/Portfolio/static/js/main.c99bbd04.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
     "static/media/HotelBooking.png": "/Portfolio/static/media/HotelBooking.b606c3ff45bd5783d6bd.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
@@ -16,6 +16,7 @@
     "static/media/avatar_1.png": "/Portfolio/static/media/avatar_1.c94cf618654bd1b8230d.png",
     "static/media/avatar_2.png": "/Portfolio/static/media/avatar_2.a3eb923eb732be4c870f.png",
     "static/media/HTML.png": "/Portfolio/static/media/HTML.1d7b133e22ffe4829da6.png",
+    "static/media/Project Task Manager.png": "/Portfolio/static/media/Project Task Manager.d1d1ba462a39eb8930b2.png",
     "static/media/SupperApp.jpeg": "/Portfolio/static/media/SupperApp.478349cbc4163af7d135.jpeg",
     "static/media/MongoDB.png": "/Portfolio/static/media/MongoDB.41ae1969f341d30268a1.png",
     "static/media/avatar_3.png": "/Portfolio/static/media/avatar_3.98460ddb0b72d22d6246.png",
@@ -43,10 +44,10 @@
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
     "main.b9d5b9d5.css.map": "/Portfolio/static/css/main.b9d5b9d5.css.map",
-    "main.a4cc0b33.js.map": "/Portfolio/static/js/main.a4cc0b33.js.map"
+    "main.c99bbd04.js.map": "/Portfolio/static/js/main.c99bbd04.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d5b9d5.css",
-    "static/js/main.a4cc0b33.js"
+    "static/js/main.c99bbd04.js"
   ]
 }
