@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b9d5b9d5.css",
-    "main.js": "/Portfolio/static/js/main.030e7e25.js",
+    "main.css": "/Portfolio/static/css/main.b97d9d0e.css",
+    "main.js": "/Portfolio/static/js/main.546b73b1.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
     "static/media/HotelBooking.png": "/Portfolio/static/media/HotelBooking.b606c3ff45bd5783d6bd.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
@@ -25,6 +25,7 @@
     "static/media/avatar_4.png": "/Portfolio/static/media/avatar_4.b7b01420a115d09a2baa.png",
     "static/media/NotesApp.png": "/Portfolio/static/media/NotesApp.ddc93121127ea5d693fc.png",
     "static/media/NotesApp_2.jpeg": "/Portfolio/static/media/NotesApp_2.56e7d5d350d5ba1b810a.jpeg",
+    "static/media/0001.png": "/Portfolio/static/media/0001.25fea86094d67ee52bfe.png",
     "static/media/Yarn.png": "/Portfolio/static/media/Yarn.4402a10c8b05263a4d4f.png",
     "static/media/1681038242chatgpt-logo-png.png": "/Portfolio/static/media/1681038242chatgpt-logo-png.1b6b302796bf0312afdb.png",
     "static/media/Node.png": "/Portfolio/static/media/Node.07d152a8a036951b8d14.png",
@@ -43,11 +44,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
-    "main.b9d5b9d5.css.map": "/Portfolio/static/css/main.b9d5b9d5.css.map",
-    "main.030e7e25.js.map": "/Portfolio/static/js/main.030e7e25.js.map"
+    "main.b97d9d0e.css.map": "/Portfolio/static/css/main.b97d9d0e.css.map",
+    "main.546b73b1.js.map": "/Portfolio/static/js/main.546b73b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9d5b9d5.css",
-    "static/js/main.030e7e25.js"
+    "static/css/main.b97d9d0e.css",
+    "static/js/main.546b73b1.js"
   ]
 }
