@@ -20,7 +20,7 @@ export const soloProjects = [
       technologies: "React | Node.js | MongoDB",
       link: "https://pro-manage-omega.vercel.app/",
       github:
-        "",
+        "https://github.com/JosuK22/Project_Task_Manager",
     },
     {
       id: 1,
