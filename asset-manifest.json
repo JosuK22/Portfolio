@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b97d9d0e.css",
-    "main.js": "/Portfolio/static/js/main.92f454b9.js",
+    "main.js": "/Portfolio/static/js/main.956a281b.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
     "static/media/HotelBooking.png": "/Portfolio/static/media/HotelBooking.b606c3ff45bd5783d6bd.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
@@ -9,6 +9,7 @@
     "static/media/JOSEPH-K-ANOJ_RESUME.pdf": "/Portfolio/static/media/JOSEPH-K-ANOJ_RESUME.ee17bf5d441355f4e69f.pdf",
     "static/media/skills.png": "/Portfolio/static/media/skills.cb9bc3a0311a9834bc03.png",
     "static/media/Preview.png": "/Portfolio/static/media/Preview.fb8a394a56437439385c.png",
+    "static/media/VersaHub.png": "/Portfolio/static/media/VersaHub.18893d426dadc2344374.png",
     "static/media/Me-1.png": "/Portfolio/static/media/Me-1.396dbd9cd57b80015849.png",
     "static/media/Me-2.png": "/Portfolio/static/media/Me-2.310fdee546a4100074af.png",
     "static/media/HTML,CSS_Portfolio.png": "/Portfolio/static/media/HTML,CSS_Portfolio.f16c470c54a66a21ea80.png",
@@ -17,7 +18,6 @@
     "static/media/avatar_2.png": "/Portfolio/static/media/avatar_2.a3eb923eb732be4c870f.png",
     "static/media/HTML.png": "/Portfolio/static/media/HTML.1d7b133e22ffe4829da6.png",
     "static/media/Project Task Manager.png": "/Portfolio/static/media/Project Task Manager.d1d1ba462a39eb8930b2.png",
-    "static/media/SupperApp.jpeg": "/Portfolio/static/media/SupperApp.478349cbc4163af7d135.jpeg",
     "static/media/MongoDB.png": "/Portfolio/static/media/MongoDB.41ae1969f341d30268a1.png",
     "static/media/avatar_3.png": "/Portfolio/static/media/avatar_3.98460ddb0b72d22d6246.png",
     "static/media/Postman.png": "/Portfolio/static/media/Postman.525e15ec9cebd1389d78.png",
@@ -45,10 +45,10 @@
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
     "main.b97d9d0e.css.map": "/Portfolio/static/css/main.b97d9d0e.css.map",
-    "main.92f454b9.js.map": "/Portfolio/static/js/main.92f454b9.js.map"
+    "main.956a281b.js.map": "/Portfolio/static/js/main.956a281b.js.map"
   },
   "entrypoints": [
     "static/css/main.b97d9d0e.css",
-    "static/js/main.92f454b9.js"
+    "static/js/main.956a281b.js"
   ]
 }
