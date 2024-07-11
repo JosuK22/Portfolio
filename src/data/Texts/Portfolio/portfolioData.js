@@ -64,7 +64,7 @@ export const soloProjects = [
       img: IMG5,
       description: "Multi-purpose react app.",
       technologies: "Html | CSS | APIs | React js",
-      link: "",
+      link: "https://steady-sunflower-a82504.netlify.app",
       github: 'https://github.com/JosuK22/VersaHub',
     },
     {
