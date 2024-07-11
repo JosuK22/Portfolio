@@ -72,7 +72,7 @@ export const soloProjects = [
       title: "HTML CSS JS Portfolio",
       img: IMG2,
       description:
-        "A personal portfolio website made using HTML, CSS, Javascript",
+        "A simple developer portfolio website made using HTML, CSS, Javascript",
       technologies: "HTML | CSS | JavaScript",
       link: "https://josuk22.github.io/HTML-CSS-Portfolio/",
       github: "https://github.com/JosuK22/HTML-CSS-Portfolio",
