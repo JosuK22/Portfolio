@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b97d9d0e.css",
-    "main.js": "/Portfolio/static/js/main.54d711c7.js",
+    "main.js": "/Portfolio/static/js/main.65c66546.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
     "static/media/HotelBooking.png": "/Portfolio/static/media/HotelBooking.b606c3ff45bd5783d6bd.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
@@ -45,10 +45,10 @@
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
     "main.b97d9d0e.css.map": "/Portfolio/static/css/main.b97d9d0e.css.map",
-    "main.54d711c7.js.map": "/Portfolio/static/js/main.54d711c7.js.map"
+    "main.65c66546.js.map": "/Portfolio/static/js/main.65c66546.js.map"
   },
   "entrypoints": [
     "static/css/main.b97d9d0e.css",
-    "static/js/main.54d711c7.js"
+    "static/js/main.65c66546.js"
   ]
 }
