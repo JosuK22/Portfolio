@@ -11,5 +11,5 @@ export const skillsDataB = [
     'VScode',
     'Vitejs',
     'ChatGPT',
-    'versel',
+    'Versel',
 ]

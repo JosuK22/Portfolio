@@ -1,9 +1,9 @@
 import IMG1 from "../../../assets/Projects/NotesApp.png";
 import IMG2 from "../../../assets/Projects/HTML,CSS_Portfolio.png";
-import IMG3 from "../../../assets/Projects/HTMLGAME.png";
-import IMG4 from "../../../assets/Projects/HotelBooking.png";
+// import IMG3 from "../../../assets/Projects/HTMLGAME.png";
+// import IMG4 from "../../../assets/Projects/HotelBooking.png";
 import IMG5 from "../../../assets/Projects/VersaHub.png";
-import IMG6 from "../../../assets/Projects/NotesApp_2.jpeg";
+// import IMG6 from "../../../assets/Projects/NotesApp_2.jpeg";
 import IMG7 from "../../../assets/Preview/Preview.png";
 import IMG8 from "../../../assets/Projects/PokemonGame.png";
 import IMG9 from "../../../assets/Projects/Project Task Manager.png";

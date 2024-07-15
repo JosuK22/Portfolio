@@ -1,19 +1,19 @@
 import './contact.css';
-import React, { useRef} from 'react';
+import React, { useRef } from 'react';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-//--------------- import contact data -----------------------
+// Import contact data
 import { contactLinks } from '../../data/Links/contactLinks';
 import { contact } from '../../data/Texts/Contacts/contactData';
 
 const Contact = () => {
-
   const formRef = useRef();
 
-  // To modify this check emailjs Documentation
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
@@ -26,12 +26,17 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Thanks, I'll reply ASAP :)", {
+            position: "top-center",
+          });
         },
         (error) => {
           console.log(error.text);
+          toast.error("Oops! Something went wrong.", {
+            position: "top-center",
+          });
         }
       );
-    alert("Thanks, I'll reply ASAP :)");
     e.target.reset();
   };
 
@@ -94,6 +99,14 @@ const Contact = () => {
           </button>
         </form>
       </div>
+
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        closeOnClick
+        pauseOnHover
+      />
     </section>
   );
 };
