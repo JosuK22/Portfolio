@@ -36,6 +36,6 @@ export const testimonials = [
       id: 5,
       avatar : Avr5,
       name: 'Saranya Ramakrishnan',
-      test: "Joseph is someone who anyone will love to wok with. Always helping out, communicating and actively collaburating while working as a team is what everyone expect from each members in a team and he got all these qualities.",
+      test: "Joseph is someone who anyone will love to work with. Always helping out, communicating and actively collaburating while working as a team is what everyone expect from each members in a team and he got all these qualities.",
     },
   ];
