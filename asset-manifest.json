@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b97d9d0e.css",
-    "main.js": "/Portfolio/static/js/main.956a281b.js",
+    "main.css": "/Portfolio/static/css/main.b73fcd37.css",
+    "main.js": "/Portfolio/static/js/main.695e4f5f.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
-    "static/media/HotelBooking.png": "/Portfolio/static/media/HotelBooking.b606c3ff45bd5783d6bd.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
-    "static/media/HTMLGAME.png": "/Portfolio/static/media/HTMLGAME.a6bbbb302a6ad2d5bef3.png",
-    "static/media/JOSEPH-K-ANOJ_RESUME.pdf": "/Portfolio/static/media/JOSEPH-K-ANOJ_RESUME.ee17bf5d441355f4e69f.pdf",
     "static/media/skills.png": "/Portfolio/static/media/skills.cb9bc3a0311a9834bc03.png",
     "static/media/Preview.png": "/Portfolio/static/media/Preview.fb8a394a56437439385c.png",
+    "static/media/JOSEPH-K-ANOJ_RESUME.pdf": "/Portfolio/static/media/JOSEPH-K-ANOJ_RESUME.432365e02b244b6dac0c.pdf",
     "static/media/VersaHub.png": "/Portfolio/static/media/VersaHub.18893d426dadc2344374.png",
     "static/media/Me-1.png": "/Portfolio/static/media/Me-1.396dbd9cd57b80015849.png",
     "static/media/Me-2.png": "/Portfolio/static/media/Me-2.310fdee546a4100074af.png",
@@ -24,7 +22,6 @@
     "static/media/avatar_5.png": "/Portfolio/static/media/avatar_5.4b6c088239d9e4dcbde4.png",
     "static/media/avatar_4.png": "/Portfolio/static/media/avatar_4.b7b01420a115d09a2baa.png",
     "static/media/NotesApp.png": "/Portfolio/static/media/NotesApp.ddc93121127ea5d693fc.png",
-    "static/media/NotesApp_2.jpeg": "/Portfolio/static/media/NotesApp_2.56e7d5d350d5ba1b810a.jpeg",
     "static/media/0001.png": "/Portfolio/static/media/0001.25fea86094d67ee52bfe.png",
     "static/media/Yarn.png": "/Portfolio/static/media/Yarn.4402a10c8b05263a4d4f.png",
     "static/media/1681038242chatgpt-logo-png.png": "/Portfolio/static/media/1681038242chatgpt-logo-png.1b6b302796bf0312afdb.png",
@@ -44,11 +41,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
-    "main.b97d9d0e.css.map": "/Portfolio/static/css/main.b97d9d0e.css.map",
-    "main.956a281b.js.map": "/Portfolio/static/js/main.956a281b.js.map"
+    "main.b73fcd37.css.map": "/Portfolio/static/css/main.b73fcd37.css.map",
+    "main.695e4f5f.js.map": "/Portfolio/static/js/main.695e4f5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b97d9d0e.css",
-    "static/js/main.956a281b.js"
+    "static/css/main.b73fcd37.css",
+    "static/js/main.695e4f5f.js"
   ]
 }
