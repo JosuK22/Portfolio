@@ -45,17 +45,32 @@ const Header = ({ toggleButton, isToggled }) => {
 
   return (
     <header id="home">
+
       <div className="container header__container">
-        <div className="toggle-button" onClick={handleToggleClick}>
+
+        <div className="toggleButton" onClick={handleToggleClick}>
           <div className={`icon-container ${clicked ? 'clicked' : ''}`}>
             {isToggled ? <WiMoonAltWaningCrescent4 /> : <CiSun />}
           </div>
         </div>
+
         <div className="card__container">
           <Card />
         </div>
-
-        <div className="text__content">
+        
+        <div className = "textContent">
+          <h5>Hello I'm</h5>
+          <h1>
+            <span id="n1">{headerName.firstname}</span> <span id="n2">{headerName.middlename}</span> <span id="n3">{headerName.lastname}</span>
+          </h1>
+          <h5 id='typer'>
+            <TypedText />
+          </h5>
+        </div>
+        <div className='buttons'>
+          <HeaderButtons />
+        </div>
+        {/* <div className="text__content">
           <h5>Hello I'm</h5>
           <h1>
             <span id="n1">{headerName.firstname}</span> <span id="n2">{headerName.middlename}</span> <span id="n3">{headerName.lastname}</span>
@@ -67,8 +82,10 @@ const Header = ({ toggleButton, isToggled }) => {
             <HeaderButtons />
           </div>
           
-        </div>
+        </div> */}
+
       </div>
+
     </header>
   );
 };

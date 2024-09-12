@@ -1,6 +1,6 @@
 header {
-  height: 100%;
-  padding-top: 5rem;
+  height: 90vh;
+  padding-top: 3rem;
   padding-bottom: .5rem;
   overflow: hidden;
 }
@@ -30,32 +30,26 @@ h1 span:hover {
   text-shadow: 1px 1px 10px var(--color-primary); 
 }
 
-.toggle-button {
-  position: absolute;
-  top: 25px; 
-  right: 25px;
+.toggleButton {
+  
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center; 
-  width: 50px;
-  height: 50px;
+  width: 100%;
   font-size: 35px;
-  border-radius: 50%; 
   cursor: pointer;
   z-index: 2; 
   transition: transform .5s ease-in-out;
   background-color: transparent;
    
 }
-.toggle-button :hover{
+.toggleButton :hover{
 fill: var(--color-primary);
 }
 
 .icon-container {
+  margin-right: 1.5rem;
   transition: transform .5s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
 }
 .icon-container.clicked {
   transform: rotate(190deg) scale(0);
@@ -73,6 +67,9 @@ fill: var(--color-primary);
 .card__container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
 }
 
 .cardContainer {
@@ -148,23 +145,25 @@ fill: var(--color-primary);
 
 /* ---------------------------------Header Text----------------------------- */
 
-.text__content{
-  margin-top: 55px;
-  height: 50%;
-  
+.textContent{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header__button {
   display: flex;
   justify-content: center;
   gap: 1.2rem;
-  margin-top: 2.5rem;
 }
 
 
 @media screen and (max-width: 1024px){
   header {
     height: 80vh;
+    
   }
 
   section {
