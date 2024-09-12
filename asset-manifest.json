@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b73fcd37.css",
-    "main.js": "/Portfolio/static/js/main.695e4f5f.js",
+    "main.css": "/Portfolio/static/css/main.5958bf44.css",
+    "main.js": "/Portfolio/static/js/main.0c01a6a4.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
     "static/media/skills.png": "/Portfolio/static/media/skills.cb9bc3a0311a9834bc03.png",
@@ -10,9 +10,9 @@
     "static/media/VersaHub.png": "/Portfolio/static/media/VersaHub.18893d426dadc2344374.png",
     "static/media/Me-1.png": "/Portfolio/static/media/Me-1.396dbd9cd57b80015849.png",
     "static/media/Me-2.png": "/Portfolio/static/media/Me-2.310fdee546a4100074af.png",
-    "static/media/HTML,CSS_Portfolio.png": "/Portfolio/static/media/HTML,CSS_Portfolio.f16c470c54a66a21ea80.png",
     "static/media/Contact us-bro.png": "/Portfolio/static/media/Contact us-bro.ecb5b77ac668b6c5e0e5.png",
     "static/media/avatar_1.png": "/Portfolio/static/media/avatar_1.c94cf618654bd1b8230d.png",
+    "static/media/Quizzie.png": "/Portfolio/static/media/Quizzie.a58f9566fbff57028204.png",
     "static/media/avatar_2.png": "/Portfolio/static/media/avatar_2.a3eb923eb732be4c870f.png",
     "static/media/HTML.png": "/Portfolio/static/media/HTML.1d7b133e22ffe4829da6.png",
     "static/media/Project Task Manager.png": "/Portfolio/static/media/Project Task Manager.d1d1ba462a39eb8930b2.png",
@@ -41,11 +41,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
-    "main.b73fcd37.css.map": "/Portfolio/static/css/main.b73fcd37.css.map",
-    "main.695e4f5f.js.map": "/Portfolio/static/js/main.695e4f5f.js.map"
+    "main.5958bf44.css.map": "/Portfolio/static/css/main.5958bf44.css.map",
+    "main.0c01a6a4.js.map": "/Portfolio/static/js/main.0c01a6a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b73fcd37.css",
-    "static/js/main.695e4f5f.js"
+    "static/css/main.5958bf44.css",
+    "static/js/main.0c01a6a4.js"
   ]
 }
