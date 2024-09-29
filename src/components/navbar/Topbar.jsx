@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import { BiBook , BiMessageSquareDetail} from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
+import { GiBrain } from "react-icons/gi";
+import { FaRegFolderOpen } from "react-icons/fa";
+import { IoCallOutline } from "react-icons/io5";
+
 
 import './topbar.css';
 
@@ -14,8 +16,8 @@ const Topbar = () => {
       const sectionOffsets = {
         '#home': document.getElementById('home').offsetTop,
         '#about': document.getElementById('about').offsetTop,
-        '#skills': document.getElementById('skills').offsetTop,
         '#portfolio': document.getElementById('portfolio').offsetTop,
+        '#skills': document.getElementById('skills').offsetTop,
         '#contact': document.getElementById('contact').offsetTop
       };
 
@@ -51,9 +53,9 @@ const Topbar = () => {
     <nav className={footerReached ? 'footer-reached' : ''}>
       <a href="#home" className={activeNav === '#home' ? 'active' : ''}><AiOutlineHome /></a>
       <a href="#about" className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href="#skills" className={activeNav === '#skills' ? 'active' : ''}><BiBook /></a>
-      <a href="#portfolio" className={activeNav === '#portfolio' ? 'active' : ''}><RiServiceLine /></a>
-      <a href="#contact" className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
+      <a href="#portfolio" className={activeNav === '#portfolio' ? 'active' : ''}><FaRegFolderOpen /></a>
+      <a href="#skills" className={activeNav === '#skills' ? 'active' : ''}><GiBrain /></a>
+      <a href="#contact" className={activeNav === '#contact' ? 'active' : ''}><IoCallOutline /></a>
     </nav>
   );
 };

@@ -49,6 +49,7 @@
 
 .portfolio__item-content {
     height: 40%;
+    margin-bottom: .4rem;
 }
 .portfolio__item-header__button .btn.disabled {
     pointer-events: none; 
@@ -59,11 +60,19 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    .portfolio__item p{
+        font-size: 80%;
+        margin: 0 0 .8rem 0;        
+    }
 }
   
 @media screen and (max-width: 600px){
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    .portfolio__item p{
+        font-size: 100%;
+        margin: 0 0 1.2rem 0;        
     }
 }

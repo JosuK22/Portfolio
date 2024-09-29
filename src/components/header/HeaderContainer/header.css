@@ -24,7 +24,9 @@ h1 span{
   transition: color 0.3s ease; 
   cursor: default; 
 }
-
+.greet{
+  margin-top: .4rem;
+}
 h1 span:hover {
   color: var(--color-primary);
   text-shadow: 1px 1px 10px var(--color-primary); 

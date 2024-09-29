@@ -23,8 +23,8 @@ const App = () => {
       <Topbar />
       <Intro />
       {isToggled ? <MovingSky /> : <TwinklingStars/>}
-      <Skills />
       <Portfolio />
+      <Skills />
       <Testimonials />
       <Contact />
       <Footer />

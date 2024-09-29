@@ -31,8 +31,9 @@ const Skills = () => {
           >
             {skillsDataA.map((skill, id) => (
               <div className="skill--box" id='s1' key={id} style={skillBoxStyle}>
-                <span className="skill-name">{skill}</span>
+                
                 <img src={skillsImage(skill)} alt={skill} />
+                <span className="skill-name">{skill}</span>
               </div>
             ))}
           </Marquee>

@@ -6,12 +6,14 @@
     margin-top: 3.5rem;
     padding: 0 2rem;
     flex-direction: column;
+    
 }
 
 .skill--scroll-1,.skill--scroll-2 {
     display: flex;
     width: 100%;
     margin: 0 2rem;
+    height: 220px;
 }
 .skill--scroll-2 {
     margin-top: 2rem;
@@ -28,35 +30,41 @@
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
-    transition: 300ms ease-in-out;
-
-    
+    transition: 400ms ease-in-out;
 }
+
 #s1{
     border-radius: 10px 10px 10px 10px;
-    background-color: bisque;
 }
 #s2{
     border-radius: 10px 10px 10px 10px;
 }
 
 .skill-name {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1rem;
+    width: 100%;
+    display: none;
+    text-align: center;
+    font-size: .9rem;
     color: var(--color-primary);
-    
 }
 
 .skill--box:hover  {
     transform: scale(1.15);
+    gap: .3rem;
+    
+}
+.skill--box:hover img  {
+    opacity: .7;
+    transform: scale(.9);
+}
+.skill--box:hover .skill-name  {
+    display: block;
 }
 .skill--box > img {
     height: 70px;
     width: auto;
     pointer-events: none;
+    
 }
 
 .marquee {

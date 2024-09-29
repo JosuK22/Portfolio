@@ -59,7 +59,7 @@ const Header = ({ toggleButton, isToggled }) => {
         </div>
         
         <div className = "textContent">
-          <h5>Hello I'm</h5>
+          <h5 className='greet'>Hello I'm</h5>
           <h1>
             <span id="n1">{headerName.firstname}</span> <span id="n2">{headerName.middlename}</span> <span id="n3">{headerName.lastname}</span>
           </h1>
@@ -70,19 +70,6 @@ const Header = ({ toggleButton, isToggled }) => {
         <div className='buttons'>
           <HeaderButtons />
         </div>
-        {/* <div className="text__content">
-          <h5>Hello I'm</h5>
-          <h1>
-            <span id="n1">{headerName.firstname}</span> <span id="n2">{headerName.middlename}</span> <span id="n3">{headerName.lastname}</span>
-          </h1>
-          <h5 id='typer'>
-            <TypedText />
-          </h5>
-          <div className='buttons'>
-            <HeaderButtons />
-          </div>
-          
-        </div> */}
 
       </div>
 

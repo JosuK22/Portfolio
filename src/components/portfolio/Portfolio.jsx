@@ -19,9 +19,9 @@ const Portfolio = () => {
               <img src={pro.img} alt={pro.title} />
             </div>
             <div className="portfolio__item-content">
-              <h3>{pro.title}</h3>
-              <p>{pro.description}</p>
-              <p>{pro.technologies}</p>
+              <h3 className="project_text">{pro.title}</h3>
+              <p className="project_p">{pro.description}</p>
+              <p className="project_p">{pro.technologies}</p>
             </div>
             <div className="portfolio__item-header__button">
               <a
