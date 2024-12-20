@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f5a81836.css",
-    "main.js": "/Portfolio/static/js/main.db00b7ef.js",
+    "main.js": "/Portfolio/static/js/main.c97d130e.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
     "static/media/skills.png": "/Portfolio/static/media/skills.cb9bc3a0311a9834bc03.png",
-    "static/media/JOSEPH-K-ANOJ_RESUME.pdf": "/Portfolio/static/media/JOSEPH-K-ANOJ_RESUME.53e68506ae966606af20.pdf",
     "static/media/Preview.png": "/Portfolio/static/media/Preview.fb8a394a56437439385c.png",
     "static/media/josephkanoj.jpg": "/Portfolio/static/media/josephkanoj.04b32b1d6650f8f9bb08.jpg",
     "static/media/VersaHub.png": "/Portfolio/static/media/VersaHub.18893d426dadc2344374.png",
     "static/media/Me-2.png": "/Portfolio/static/media/Me-2.310fdee546a4100074af.png",
     "static/media/Contact us-bro.png": "/Portfolio/static/media/Contact us-bro.ecb5b77ac668b6c5e0e5.png",
+    "static/media/JOSEPH-K-ANOJ_RESUME.pdf": "/Portfolio/static/media/JOSEPH-K-ANOJ_RESUME.930422e4d0756df5f881.pdf",
     "static/media/avatar_1.png": "/Portfolio/static/media/avatar_1.c94cf618654bd1b8230d.png",
     "static/media/Quizzie.png": "/Portfolio/static/media/Quizzie.a58f9566fbff57028204.png",
     "static/media/avatar_2.png": "/Portfolio/static/media/avatar_2.a3eb923eb732be4c870f.png",
@@ -42,10 +42,10 @@
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
     "main.f5a81836.css.map": "/Portfolio/static/css/main.f5a81836.css.map",
-    "main.db00b7ef.js.map": "/Portfolio/static/js/main.db00b7ef.js.map"
+    "main.c97d130e.js.map": "/Portfolio/static/js/main.c97d130e.js.map"
   },
   "entrypoints": [
     "static/css/main.f5a81836.css",
-    "static/js/main.db00b7ef.js"
+    "static/js/main.c97d130e.js"
   ]
 }
