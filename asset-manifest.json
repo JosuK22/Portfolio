@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f5a81836.css",
-    "main.js": "/Portfolio/static/js/main.933cff9d.js",
+    "main.js": "/Portfolio/static/js/main.098b8de4.js",
     "static/media/PokemonGame.png": "/Portfolio/static/media/PokemonGame.afffe63cee283b617c07.png",
     "static/media/Sky.png": "/Portfolio/static/media/Sky.f1c3add959ac18e13484.png",
     "static/media/skills.png": "/Portfolio/static/media/skills.cb9bc3a0311a9834bc03.png",
@@ -10,7 +10,7 @@
     "static/media/VersaHub.png": "/Portfolio/static/media/VersaHub.18893d426dadc2344374.png",
     "static/media/Me-2.png": "/Portfolio/static/media/Me-2.310fdee546a4100074af.png",
     "static/media/Contact us-bro.png": "/Portfolio/static/media/Contact us-bro.ecb5b77ac668b6c5e0e5.png",
-    "static/media/JOSEPH-K-ANOJ_RESUME.pdf": "/Portfolio/static/media/JOSEPH-K-ANOJ_RESUME.53c8bb40b3f417f87add.pdf",
+    "static/media/JOSEPH-K-ANOJ_RESUME.pdf": "/Portfolio/static/media/JOSEPH-K-ANOJ_RESUME.8084b997497084a44be3.pdf",
     "static/media/avatar_1.png": "/Portfolio/static/media/avatar_1.c94cf618654bd1b8230d.png",
     "static/media/Quizzie.png": "/Portfolio/static/media/Quizzie.a58f9566fbff57028204.png",
     "static/media/avatar_2.png": "/Portfolio/static/media/avatar_2.a3eb923eb732be4c870f.png",
@@ -42,10 +42,10 @@
     "static/media/figma.svg": "/Portfolio/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
     "static/media/materialui.svg": "/Portfolio/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
     "main.f5a81836.css.map": "/Portfolio/static/css/main.f5a81836.css.map",
-    "main.933cff9d.js.map": "/Portfolio/static/js/main.933cff9d.js.map"
+    "main.098b8de4.js.map": "/Portfolio/static/js/main.098b8de4.js.map"
   },
   "entrypoints": [
     "static/css/main.f5a81836.css",
-    "static/js/main.933cff9d.js"
+    "static/js/main.098b8de4.js"
   ]
 }
