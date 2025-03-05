@@ -18,6 +18,7 @@ header {
   display: flex;
   flex-direction: column;
   z-index: 2;
+  
 }
 
 h1 span{
@@ -78,6 +79,7 @@ fill: var(--color-primary);
   width: 200px;
   height: 250px;
   background: var(--color-bg);
+  /* background-color: pink; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,6 +161,7 @@ fill: var(--color-primary);
   display: flex;
   justify-content: center;
   gap: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -221,7 +224,7 @@ fill: var(--color-primary);
 }
 @media(max-height: 900px){
   .header__button {
-    margin-top: 10%;
+    margin-top: 2%;
   }
   
   
@@ -229,7 +232,7 @@ fill: var(--color-primary);
 
 @media(max-height: 750px){
   .header__button {
-    margin-top: 10%;
+    margin-top: 2%;
   }
   .cardContainer {
     width: 150px;
