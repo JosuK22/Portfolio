@@ -1,4 +1,4 @@
-# Personal | Developer Portfolio
+# Developer Portfolio
 
 ## Preview
 <div align="center">
